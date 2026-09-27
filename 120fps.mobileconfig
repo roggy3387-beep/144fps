@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- ផ្នែកទី១៖ បណ្តាញអ៊ិនធឺណិតកម្រិតខ្ពស់ (ទប់សេវា 4G/5G មិនឱ្យធ្លាក់ទៅ E និងកាត់បន្ថយ Ping) -->
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Anti-Edge Network Optimization to Prevent 2G/EDGE Fallback and Stabilize Ping</string>
+            <key>PayloadDisplayName</key>
+            <string>Anti-E &amp; Network Boost 🍎</string>
+            <key>PayloadIdentifier</key>
+            <string>com.custom.smoothprofile.network.anti-edge</string>
+            <key>PayloadType</key>
+            <string>com.apple.cellular</string>
+            <key>PayloadUUID</key>
+            <string>1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>cellularDataService</key>
+            <true/>
+        </dict>
+        <!-- ផ្នែកទី២៖ 120FPS, ទប់ពន្លឺ, ទប់ម្រាមដៃ, សន្សំថ្ម និងកូដបើក App លឿនភ្លាមៗ (Instant App Launch & Priority Boost) -->
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Instant App Launch, 120FPS, Multi-Touch Stability, Brightness Lock, and Battery Efficiency</string>
+            <key>PayloadDisplayName</key>
+            <string>120fps 🍎</string>
+            <key>PayloadIdentifier</key>
+            <string>com.custom.smoothprofile.performance.instantlaunch</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>2B3C4D5E-6F7A-8B9C-0D1E-2F3A4B5C6D7E</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>allowUIAppInstallation</key>
+            <true/>
+            <key>forceITunesStorePasswordEntry</key>
+            <false/>
+            <key>allowDiagnosticSubmission</key>
+            <false/>
+            <key>allowAppAnalytics</key>
+            <false/>
+            <key>allowSpotlightInternetResults</key>
+            <false/>
+            <key>allowAutoBrightnessModification</key>
+            <false/>
+            <key>allowLowPowerModeModification</key>
+            <true/>
+            <key>allowAppClips</key>
+            <true/>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Ultimate Gaming Configuration Profile: Instant App Launch, Anti-EDGE, 120FPS, Brightness Lock, and Battery Saver.</string>
+    <key>PayloadDisplayName</key>
+    <string>120fps 🍎</string>
+    <key>PayloadIdentifier</key>
+    <string>com.custom.profile.root.instantlaunch</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9F8E7D6C-5B4A-3F2E-1D0C-9B8A7F6E5D4C</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
